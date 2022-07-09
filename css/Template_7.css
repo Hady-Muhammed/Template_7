@@ -1,0 +1,84 @@
+/* Start Global Rules */
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+.fw-b {
+    font-weight: bold;
+}
+.fw-300 {
+    font-weight: 400;
+}
+.active {
+    background-color: #2f201d !important;
+}
+/* End Global Rules */
+/* Start Header */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+.navbar-dark .navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+}
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 2em;
+}
+/* End Header */
+/* Start Landing */
+.landing {
+    background-image: url(../images/jeans.jpg);
+    background-size: cover;
+    height: 60vh;
+}
+.landing h1 {
+    font-size: 4em;
+}
+/* End Landing */
+/* Start Shop */
+.shop img {
+    filter: saturate(0.3);
+}
+.shop p {
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+/* End Shop */
+/* Start Email */
+.email {
+
+}
+/* End Email */
+/* Start Sidebar */
+.position-fixed {
+    left: 0;
+}
+.position-fixed h1 {
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px;
+}
+.position-fixed a:hover {
+    background-color: #777;
+    color: white !important;
+}
+/* End Sidebar */
+@media (max-width: 999px) {
+    .position-fixed {
+        display: none !important;
+    }
+    .col-9 {
+        width: 100% !important;
+    }
+    .shop > div {
+        text-align: center;
+    }
+    .lst2 {
+        margin-top: 4em;
+    }
+    .lst {
+        margin-top: 4em;
+    }
+}
